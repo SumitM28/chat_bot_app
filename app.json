@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "chatbot_app",
-    "slug": "chatbot_app",
+    "name": "Chatbot App",
+    "slug": "chatbot-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/chat.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -25,6 +25,18 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b6cb5f1f-eec7-4034-9adc-722d9d677ab3"
+      }
+    },
+    "owner": "sumitm28",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/b6cb5f1f-eec7-4034-9adc-722d9d677ab3"
     }
   }
 }
